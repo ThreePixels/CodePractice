@@ -19,7 +19,6 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     MainViewController *mainViewController = [[MainViewController alloc] init];
-    mainViewController.view.backgroundColor = [UIColor redColor];
     UINavigationController *navigationControler = [[UINavigationController alloc] initWithRootViewController:mainViewController];
     self.window.rootViewController = navigationControler;
     [self.window makeKeyAndVisible];
