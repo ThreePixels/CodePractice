@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		115DD4DC6E9928DF1CCBC7AA /* libPods-Transition.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A32A7BABB3C242A31BC232FB /* libPods-Transition.a */; };
 		A9EA9FD71FEA57DB0072068E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EA9FD61FEA57DB0072068E /* AppDelegate.m */; };
-		A9EA9FDA1FEA57DB0072068E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EA9FD91FEA57DB0072068E /* ViewController.m */; };
-		A9EA9FDD1FEA57DB0072068E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9EA9FDB1FEA57DB0072068E /* Main.storyboard */; };
+		A9EA9FDA1FEA57DB0072068E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EA9FD91FEA57DB0072068E /* MainViewController.m */; };
 		A9EA9FDF1FEA57DB0072068E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9EA9FDE1FEA57DB0072068E /* Assets.xcassets */; };
 		A9EA9FE21FEA57DB0072068E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9EA9FE01FEA57DB0072068E /* LaunchScreen.storyboard */; };
 		A9EA9FE51FEA57DB0072068E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EA9FE41FEA57DB0072068E /* main.m */; };
@@ -35,12 +35,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		772FC180C86260DC0BBB2D85 /* Pods-Transition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Transition.release.xcconfig"; path = "../Pods/Target Support Files/Pods-Transition/Pods-Transition.release.xcconfig"; sourceTree = "<group>"; };
+		A32A7BABB3C242A31BC232FB /* libPods-Transition.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Transition.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9EA9FD21FEA57DB0072068E /* Transition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Transition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9EA9FD51FEA57DB0072068E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A9EA9FD61FEA57DB0072068E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A9EA9FD81FEA57DB0072068E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A9EA9FD91FEA57DB0072068E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A9EA9FDC1FEA57DB0072068E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9EA9FD81FEA57DB0072068E /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		A9EA9FD91FEA57DB0072068E /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		A9EA9FDE1FEA57DB0072068E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9EA9FE11FEA57DB0072068E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9EA9FE31FEA57DB0072068E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +52,7 @@
 		A9EA9FF51FEA57DB0072068E /* TransitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9EA9FF91FEA57DB0072068E /* TransitionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransitionUITests.m; sourceTree = "<group>"; };
 		A9EA9FFB1FEA57DB0072068E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCFF410A52B6FCE84592E7B4 /* Pods-Transition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Transition.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-Transition/Pods-Transition.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				115DD4DC6E9928DF1CCBC7AA /* libPods-Transition.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9580B8C978AD04CC7785AAD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A32A7BABB3C242A31BC232FB /* libPods-Transition.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A9EA9FC91FEA57DB0072068E = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +96,8 @@
 				A9EA9FED1FEA57DB0072068E /* TransitionTests */,
 				A9EA9FF81FEA57DB0072068E /* TransitionUITests */,
 				A9EA9FD31FEA57DB0072068E /* Products */,
+				F680B0E809F453BB9B1B0EBC /* Pods */,
+				9580B8C978AD04CC7785AAD6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,9 +116,8 @@
 			children = (
 				A9EA9FD51FEA57DB0072068E /* AppDelegate.h */,
 				A9EA9FD61FEA57DB0072068E /* AppDelegate.m */,
-				A9EA9FD81FEA57DB0072068E /* ViewController.h */,
-				A9EA9FD91FEA57DB0072068E /* ViewController.m */,
-				A9EA9FDB1FEA57DB0072068E /* Main.storyboard */,
+				A9EA9FD81FEA57DB0072068E /* MainViewController.h */,
+				A9EA9FD91FEA57DB0072068E /* MainViewController.m */,
 				A9EA9FDE1FEA57DB0072068E /* Assets.xcassets */,
 				A9EA9FE01FEA57DB0072068E /* LaunchScreen.storyboard */,
 				A9EA9FE31FEA57DB0072068E /* Info.plist */,
@@ -132,6 +144,15 @@
 			path = TransitionUITests;
 			sourceTree = "<group>";
 		};
+		F680B0E809F453BB9B1B0EBC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCFF410A52B6FCE84592E7B4 /* Pods-Transition.debug.xcconfig */,
+				772FC180C86260DC0BBB2D85 /* Pods-Transition.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +160,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9EA9FFE1FEA57DB0072068E /* Build configuration list for PBXNativeTarget "Transition" */;
 			buildPhases = (
+				4DE09B402805A3699E79B3DE /* [CP] Check Pods Manifest.lock */,
 				A9EA9FCE1FEA57DB0072068E /* Sources */,
 				A9EA9FCF1FEA57DB0072068E /* Frameworks */,
 				A9EA9FD01FEA57DB0072068E /* Resources */,
+				D398D37A3A554855660DBBD6 /* [CP] Embed Pods Frameworks */,
+				D6FFC6537F03E596EC120C17 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -240,7 +264,6 @@
 			files = (
 				A9EA9FE21FEA57DB0072068E /* LaunchScreen.storyboard in Resources */,
 				A9EA9FDF1FEA57DB0072068E /* Assets.xcassets in Resources */,
-				A9EA9FDD1FEA57DB0072068E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,12 +283,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4DE09B402805A3699E79B3DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Transition-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D398D37A3A554855660DBBD6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-Transition/Pods-Transition-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6FFC6537F03E596EC120C17 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-Transition/Pods-Transition-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A9EA9FCE1FEA57DB0072068E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9EA9FDA1FEA57DB0072068E /* ViewController.m in Sources */,
+				A9EA9FDA1FEA57DB0072068E /* MainViewController.m in Sources */,
 				A9EA9FE51FEA57DB0072068E /* main.m in Sources */,
 				A9EA9FD71FEA57DB0072068E /* AppDelegate.m in Sources */,
 			);
@@ -303,14 +377,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A9EA9FDB1FEA57DB0072068E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A9EA9FDC1FEA57DB0072068E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A9EA9FE01FEA57DB0072068E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -428,6 +494,7 @@
 		};
 		A9EA9FFF1FEA57DB0072068E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCFF410A52B6FCE84592E7B4 /* Pods-Transition.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -442,6 +509,7 @@
 		};
 		A9EAA0001FEA57DB0072068E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 772FC180C86260DC0BBB2D85 /* Pods-Transition.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
